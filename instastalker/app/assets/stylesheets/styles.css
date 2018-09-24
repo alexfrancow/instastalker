@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+/* NAV */
+
+ul {
+  	padding: 0;
+  	list-style: none;
+}
+
+.instanav {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin: 2% 25% 2% 25%;
+	text-decoration: none;
+	background-color: #fff !important;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+	font-size:18pt;
+}
+
+.instalogo {
+	color: #000;
+}
+
+.instalogo:hover {
+	color: #000;
+}
+
+.instaicon {
+	color: #808080;
+}
+
+.instasearch {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+/* BODY */
+
+body {
+	background-color: #fafafa;
+}
+
+section {
+	background-color: #fafafa !important;
+	margin: 2% 25% 2% 25%;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+	height: auto;
+}
+
+section .profile_header {
+	display: flex;
+	padding: 1% 1% 0% 1%;
+}
+
+section .profile_img {
+	border-radius: 50%;
+}
+
+section #user {
+	font-size: 24px;
+	margin-top: auto;
+  	margin-bottom: auto;
+  	margin-left: 1%;
+}
+
+section .map {
+	width: 100%;
+	margin-top: 5px;
+}
